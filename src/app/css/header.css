@@ -1,0 +1,21 @@
+.header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.avatar {
+  width: 368px;
+  height: 475px;
+  background-color: white;
+  flex-shrink: 0; /* Prevent shrinking */
+}
