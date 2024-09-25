@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   gap: 80px;
-  max-width: 960px;
+  max-width: 1120px;
   margin: 0 auto;
 }
 
@@ -18,4 +18,12 @@
   height: 475px;
   background-color: white;
   flex-shrink: 0; /* Prevent shrinking */
+}
+.current_work {
+  margin-top: 40px;
+  font-family: var(--font-geist-mono);
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  color: #646464;
 }

@@ -1,11 +1,12 @@
+"use client";
+
 import "../css/header.css";
-import Image from "next/image";
-import avatarImage from "../images/avatar.svg";
+import Rive from "@rive-app/react-canvas";
 
 export default function Avatar() {
   return (
     <div className="avatar">
-      <Image src={avatarImage} alt="avatar" />
+      <Rive src="avatar_card.riv" stateMachines="State Machine 1" />
     </div>
   );
 }

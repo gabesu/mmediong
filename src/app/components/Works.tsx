@@ -7,7 +7,7 @@ import FancyButton from "./FancyButton";
 export default function Works() {
   return (
     <div className="work">
-      <div className="work_content">
+      <div className="work_item">
         <div className="headline">
           <div className="label">Piggyvest 2-024</div>
           <h1>Designing beginner friendly savings and investments</h1>
