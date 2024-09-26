@@ -1,0 +1,35 @@
+.scroll-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 4px 12px; /* Adjusted padding to be smaller */
+  border-radius: 60px;
+  background-color: #dbdbdb;
+  font-family: var(--font-geist-mono);
+  font-size: 14px;
+  color: #000;
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background-color 0.3s ease;
+  .icon {
+    animation: hover 1s infinite;
+  }
+  &:hover {
+    background-color: white;
+  }
+}
+
+@keyframes hover {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

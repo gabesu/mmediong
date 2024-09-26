@@ -9,11 +9,11 @@ export default function FancyButton({
   icon: string;
 }) {
   return (
-    <a className="fancy-button">
+    <div className="fancy-button">
       <div className="label">{title}</div>
       <div className="icon">
         <Image src={icon} alt="Image" width={20} height={20} />
       </div>
-    </a>
+    </div>
   );
 }

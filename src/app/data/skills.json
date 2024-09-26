@@ -1,0 +1,36 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "title": "Figma"
+    },
+    {
+      "id": "2",
+      "title": "Adobe CC"
+    },
+    {
+      "id": "3",
+      "title": "Rive"
+    },
+    {
+      "id": "4",
+      "title": "Lottie"
+    },
+    {
+      "id": "5",
+      "title": "Origami"
+    },
+    {
+      "id": "6",
+      "title": "HTML/CSS"
+    },
+    {
+      "id": "6",
+      "title": "ReactJS"
+    },
+    {
+      "id": "7",
+      "title": "Swift UI"
+    }
+  ]
+}

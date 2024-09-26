@@ -27,3 +27,10 @@
   align-items: center;
   color: #646464;
 }
+.skillset {
+  margin-top: 40px;
+  display: flex;
+  gap: 4px;
+  width: 60%;
+  flex-wrap: wrap;
+}

@@ -1,4 +1,4 @@
-import "./../../css/work.css";
+import "./../css/work.css";
 import Image from "next/image";
 
 export default function Pocketapp() {
@@ -36,7 +36,7 @@ export default function Pocketapp() {
         </div>
 
         <div className="content_block">
-          <h4>Role</h4>
+          <h3>Role</h3>
           <p>Senior Product Designer</p>
         </div>
       </section>
